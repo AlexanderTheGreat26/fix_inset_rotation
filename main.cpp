@@ -1,6 +1,6 @@
 /* Well, after we randomly generated coordinates of atoms for insertion we need to be sure that there're
  * no overlaps between relaxed system and new atoms. For this target we will rotate atoms around generated
- * coordinates while the minimal distances from another atoms won't be max. */
+ * coordinates while the minimal distances from another atoms won't be more than OH-distance. */
 
 #include <iostream>
 #include <random>
